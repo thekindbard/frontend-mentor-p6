@@ -12,6 +12,10 @@
     font-family: Spartan;
 }
 
+body {
+    position: relative;
+}
+
 main {
     width: 90%;
     margin: auto;
@@ -198,7 +202,7 @@ main section:last-child {
     }
 
     .background-bottom {
-        position: relative;
+        position: absolute;
     }
     
     section:nth-child(1) {
@@ -211,6 +215,9 @@ main section:last-child {
 
     .users {
         margin-bottom: 10px;
+    }
+    .users > div {
+        margin-left: 0px;
     }
 
     .users:nth-child(2) > div {
